@@ -87,14 +87,14 @@ $ composer install
 **sleepTime**: Time (seconds) between two loops
 
 
-### Usage
+# Usage
 
 ```sh
 $ php trader.php
 ```
 
 
-### DISCLAIMER
+# DISCLAIMER
 
 I am not responsible for anything done with this bot. You use it at your own risk. There are no warranties or guarantees expressed or implied. You assume all responsibility and liability.
 
