@@ -33,7 +33,7 @@ $ composer install
 
 # Configuration
 
-1. Signup for Binance[Binance](https://www.binance.com/en/register?ref=T0J9L2XU)
+1. Signup for [Binance](https://www.binance.com/en/register?ref=T0J9L2XU)
 2. Enable Two-factor Authentication
 3. Go API Center and [Create a New Api Key](https://www.binance.com/en/my/settings/api-management?ref=T0J9L2XU)
 4. Modify configuration parameters inside **trader.php**
