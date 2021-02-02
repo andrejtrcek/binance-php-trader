@@ -41,29 +41,49 @@ $ composer install
 
 ### Configuration parameters
 
-###### Required
+### Required
 **primary**: The cryptocurrency Trader buys (ex. BTC, ETH, LTC, ...)
+
 **secondary**: The cryptocurrency Trader sells (ex. BTC, USDT, ...)
+
 **binance/key**: Binance API key
+
 **binance/key**: Binance API secret
+
 **digits/price**: Number of digits for price determined by the exchange (ex. ETH: price = 2)
+
 **digits/quantity**: Number of digits for quantity determined by the exchange (ex. ETH: quantity = 5)
 
-###### Optional
+
+### Optional
 **tradingview/period/buy**: Tradingview period to fetch for a BUY order (ex. 1, 5, 15, 60, ...)
+
 **tradingview/period/sell**: Tradingview period to fetch for a SELL order (ex. 1, 5, 15, 60, ...)
+
 **tradingview/url**: Tradingview URL Endpoint
+
 **tradingview/margin**: Determine if the currency is for buying or selling (strong sell = <-0.5, sell = -0.5-0, buy = 0 - 0.5, strong buy = 0.5>)
+
 **telegram/token**: Telegram bot token for notifitations (if empty, Telegram bot does not work)
+
 **telegram/token**: Telegram Channel ID
+
 **trendNum/buy**: Number of trades to count as trend for a BUY order
+
 **trendNum/sell**: Number of trades to count as trend for a SELL order
+
 **tradeMin**: Min. amount of secondary currency determined by the exchange to trade
+
 **tradePercentage**: Amount (in percentage) of secondary cryptocurrency to trade
+
 **tradePrice**: Trade price difference from market price (in percentage)
+
 **orderRepeat**: Max. amount of cycles per single buy/sell order
+
 **stop/loss**: Max. loss in percentage
+
 **stop/gain**: If price starts dropping, sell only if min. this much gain (in percentage)
+
 **sleepTime**: Time (seconds) between two loops
 
 
