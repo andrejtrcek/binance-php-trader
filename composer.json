@@ -1,0 +1,7 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+        "jaggedsoft/php-binance-api": "@dev",
+        "unreal4u/telegram-api": "~3.4"
+    }
+}
