@@ -27,7 +27,7 @@ $ wget https://raw.githubusercontent.com/composer/getcomposer.org/76a7060ccb9390
 ```sh
 $ git clone https://github.com/andrejtrcek/binance-php-trader.git
 $ cd binance-php-trader
-$ composer install
+$ php ../composer.phar install
 ```
 
 
