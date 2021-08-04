@@ -16,8 +16,8 @@ Experimental bot for auto trading on the Binance.com exchange written in PHP wit
 ### Requirements (Ubuntu)
 
 ```sh
-$ sudo apt-get update & apt-get upgrade
-$ sudo apt-get install git php php-curl
+$ sudo apt update && sudo apt upgrade
+$ sudo apt install git php php-curl
 $ wget https://raw.githubusercontent.com/composer/getcomposer.org/76a7060ccb93902cd7576b67264ad91c8a2700e2/web/installer -O - -q | php -- --quiet
 ```
 
@@ -27,7 +27,7 @@ $ wget https://raw.githubusercontent.com/composer/getcomposer.org/76a7060ccb9390
 ```sh
 $ git clone https://github.com/andrejtrcek/binance-php-trader.git
 $ cd binance-php-trader
-$ composer install
+$ php ../composer.phar install
 ```
 
 
